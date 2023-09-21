@@ -32,10 +32,12 @@ export async function POST(req: Request) {
     date: getCNDate(),
   });
 
-  // const res = await fetch(`https://github.com/huangfushan/yijing/blob/main/docs/${guaMark}/index.md`)
   const res = await fetch(
-    `https://github.com/huangfushan/yijing/blob/main/docs/other/${guaMark}/index.md`
+    `https://raw.githubusercontent.com/huangfushan/yijing/main/docs/${guaMark}/index.md`
   );
+  // const res = await fetch(
+  //   `https://raw.githubusercontent.com/huangfushan/yijing/main/docs/other/${guaMark}/index.md`
+  // );
   const guaDetail = await res.text();
 
   const response = await openai.createChatCompletion({

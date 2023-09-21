@@ -6,7 +6,7 @@ export default function Nav() {
           <div className="flex flex-1 items-center justify-center sm:justify-start gap-2">
             <img
               className="opacity-60 h-7 w-auto sm:animate-[spin_3s_linear_infinite]"
-              src="img/chatgpt.png"
+              src="img/yin-yang.png"
               alt="chatgpt"
             />
             <span className="text-stone-600">AI 算卦</span>
@@ -14,5 +14,5 @@ export default function Nav() {
         </div>
       </div>
     </div>
-  )
+  );
 }
