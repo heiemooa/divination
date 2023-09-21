@@ -12,10 +12,6 @@ yarn dev
 
 本地运行： [http://localhost:3000](http://localhost:3000)
 
-- 部署 Github Page
-```
-mkdocs gh-deploy
-```
 
 - 部署服务器
 ```
