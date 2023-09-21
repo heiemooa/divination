@@ -15,9 +15,9 @@ yarn dev
 
 - 部署服务器
 ```
-npm run build
+npm run build & npm run start
 # or
-yarn build
+yarn build & yarn start
 ```
 这将生成一个包含html文件的site目录
 
