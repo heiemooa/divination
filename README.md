@@ -12,13 +12,18 @@ yarn dev
 
 本地运行： [http://localhost:3000](http://localhost:3000)
 
-- 打包部署
+- 部署 Github Page
+```
+mkdocs gh-deploy
+```
 
+- 部署服务器
 ```
-npm run build & npm run start
+npm run build
 # or
-yarn build & yarn start
+yarn build
 ```
+这将生成一个包含html文件的site目录
 
 线上地址：https://ai.emooa.com
 
