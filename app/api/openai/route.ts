@@ -33,10 +33,10 @@ export async function POST(req: Request) {
   });
 
   const res = await fetch(
-    `https://raw.githubusercontent.com/huangfushan/yijing/main/docs/${guaMark}/index.md`
+    `https://raw.githubusercontent.com/heiemooa/yijing/main/docs/${guaMark}/index.md`
   );
   // const res = await fetch(
-  //   `https://raw.githubusercontent.com/huangfushan/yijing/main/docs/other/${guaMark}/index.md`
+  //   `https://raw.githubusercontent.com/heiemooa/yijing/main/docs/other/${guaMark}/index.md`
   // );
   const guaDetail = await res.text();
 
