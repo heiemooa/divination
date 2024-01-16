@@ -21,6 +21,6 @@ yarn build & yarn start
 ```
 这将生成一个包含html文件的site目录
 
-线上地址：https://ai.emooa.com
+线上地址：https://divination.emooa.com
 
 易经原文：https://yijing.emooa.com
